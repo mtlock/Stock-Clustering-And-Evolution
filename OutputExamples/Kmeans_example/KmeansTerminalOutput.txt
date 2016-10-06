@@ -1,0 +1,37 @@
+Mikes-MacBook-Air:Volatility Mike$ python Main.py
+
+DOW JONES CLUSTER ANALYSIS
+
+DATES
+Enter a starting date for the analysis:
+Year: 2016
+Month: 5
+Day: 2
+For the ending date:
+How many days into the future: 8
+
+ANALYSIS SPECIFICATIONS
+How many clusters would you like in the analysis?
+Please enter an integer between 2 and 6: 2
+
+The kmeans algorithm will be run a certain number of times
+The clustering with the greatest frequency will be returned
+
+How many time would you like to run it?
+1000
+
+RESULTS
+From 2016-05-02 to 2016-05-10 , the clustering:
+
+['MMM', 'BA', 'KO', 'XOM', 'HD', 'IBM', 'JNJ', 'MCD', 'MSFT', 'PFE', 'PG', 'TRV', 'UNH', 'VZ', 'V', 'WMT', 'DIS']
+
+
+['AXP', 'AAPL', 'CAT', 'CVX', 'CSCO', 'DD', 'GE', 'GS', 'INTC', 'JPM', 'MRK', 'NKE', 'UTX']
+
+has frequency 1000 out of 1000
+VISUALIZATION
+Would you like to see a visualization of the data?
+Enter Y for yes or anything else for no: Y
+Would you like to see the data represented in 2D, 3D or both?
+Enter 2D, 3D or both: both
+

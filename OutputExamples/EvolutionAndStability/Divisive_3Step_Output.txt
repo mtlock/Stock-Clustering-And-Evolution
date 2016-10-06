@@ -1,0 +1,35 @@
+Mikes-MacBook-Air:Divisive Mike$ python Divisive.py
+
+DIVISIVE CLUSTERING FOR DOW JONES 
+
+DATES
+Enter a starting date for the analysis:
+Year: 2015
+Month: 5
+Day: 4
+For the ending date:
+How many days into the future: 4
+
+How many times would you like to run the divisive process?
+Please enter an integer between 1 and 4: 3
+
+AFTER THE FIRST STEP:
+['IBM', 'INTC', 'MSFT', 'PFE', 'VZ', 'AAPL', 'KO', 'MRK', 'CVX', 'CSCO', 'CAT', 'XOM', 'DIS']
+['AXP', 'HD', 'NKE', 'TRV', 'UNH', 'MCD', 'PG', 'UTX', 'V', 'GE', 'WMT', 'MMM', 'BA', 'DD', 'GS', 'JNJ', 'JPM']
+
+AFTER THE SECOND STEP
+['IBM', 'INTC', 'MSFT', 'PFE', 'VZ', 'AAPL', 'KO', 'MRK']
+['CVX', 'CSCO', 'CAT', 'XOM', 'DIS']
+['AXP', 'HD', 'NKE', 'TRV', 'UNH', 'MCD', 'PG', 'UTX', 'V']
+['GE', 'WMT', 'MMM', 'BA', 'DD', 'GS', 'JNJ', 'JPM']
+
+AFTER THE THIRD STEP
+['IBM', 'INTC', 'MSFT', 'PFE', 'VZ']
+['AAPL', 'KO', 'MRK']
+['CVX', 'CSCO']
+['CAT', 'XOM', 'DIS']
+['AXP', 'HD', 'NKE', 'TRV', 'UNH']
+['MCD', 'PG', 'UTX', 'V']
+['GE', 'WMT']
+['MMM', 'BA', 'DD', 'GS', 'JNJ', 'JPM']
+Mikes-MacBook-Air:Divisive Mike$ 

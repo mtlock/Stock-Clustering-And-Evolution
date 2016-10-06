@@ -1,0 +1,24 @@
+Mikes-MacBook-Air:Divisive Mike$ python Divisive.py
+
+DIVISIVE CLUSTERING FOR DOW JONES 
+
+DATES
+Enter a starting date for the analysis:
+Year: 2015
+Month: 5
+Day: 4
+For the ending date:
+How many days into the future: 4
+
+How many times would you like to run the divisive process?
+Please enter an integer between 1 and 4: 2
+
+AFTER THE FIRST STEP:
+['MMM', 'BA', 'DD', 'GE', 'GS', 'JNJ', 'JPM', 'WMT', 'AXP', 'HD', 'MCD', 'NKE', 'PG', 'TRV', 'UNH', 'UTX', 'V']
+['CAT', 'CVX', 'CSCO', 'XOM', 'DIS', 'AAPL', 'KO', 'IBM', 'INTC', 'MRK', 'MSFT', 'PFE', 'VZ']
+
+AFTER THE SECOND STEP
+['MMM', 'BA', 'DD', 'GE', 'GS', 'JNJ', 'JPM', 'WMT']
+['AXP', 'HD', 'MCD', 'NKE', 'PG', 'TRV', 'UNH', 'UTX', 'V']
+['CAT', 'CVX', 'CSCO', 'XOM', 'DIS']
+['AAPL', 'KO', 'IBM', 'INTC', 'MRK', 'MSFT', 'PFE', 'VZ']
